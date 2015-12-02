@@ -1,0 +1,23 @@
+{
+  "name": "hello-webpack-world",
+  "version": "1.0.0",
+  "description": "A barebone application to work with WebPack and experience it first hand.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack ./js/index.js bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "commonjs",
+    "frontend",
+    "module"
+  ],
+  "author": "saumya ray",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^2.1.4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
